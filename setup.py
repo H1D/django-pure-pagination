@@ -5,7 +5,7 @@ setup(
     name='django-pure-pagination',
     version='0.2.1',
     author='James Pacileo',
-    long_description=open('README.rst').read(),
+    long_description=open('README.rst', 'rb').read().decode('utf-8'),
     license='BSD',
     keywords='pagination, django',
     classifiers=[
